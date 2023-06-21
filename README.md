@@ -42,5 +42,5 @@ Realizei um join entre as 3 tabelas mantendo somente os dados relevantes para as
 
 ## Conclusão:
 
-Conclui-se que houve um bom aproveitamento dos dados disponibilizados, porém não tive exito na conexção dos entre **MySQL** e **Looker Studio**.
+Conclui-se que houve um bom aproveitamento dos dados disponibilizados, pois os dados foram análisado, tratados e carregados para looker Studio para a elaboração do Dashboard.
 
