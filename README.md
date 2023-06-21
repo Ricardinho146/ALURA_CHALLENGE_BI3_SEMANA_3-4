@@ -18,12 +18,17 @@ Projeto desenvovido durante o evento de Challenge Dados - BI3, na terceira e qua
 
 ### Dados Análisados:
 
-Os dados foram disponibilizados em um arquivo DUMP SQL com 3 tabelas:
-**Constinuar a Edição a partir daqui!!!**
-* Prdotuos cadastrados;
-* Nivel de estoque Histórico;
-* Pedidos;
-* Frota (Motos, Carros e Caminhotes).
+Os dados foram disponibilizados em um arquivo DUMP.SQL com 3 tabelas:
+* itens_pedido;
+* pedido;
+* produto;
+  
+### Realizando a Query:
+
+Realizei um join entre as 3 tabelas mantendo somente os dados relevantes para as análises
+
+![Query_METEORA](https://github.com/Ricardinho146/ALURA_CHALLENGE_BI3_SEMANA_3-4/assets/64876358/459da90f-225f-4919-8e5a-a7e53ee991d4)
+
 
 ### Análises, Resultados e Ações:
 
