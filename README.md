@@ -30,18 +30,17 @@ Realizei um join entre as 3 tabelas mantendo somente os dados relevantes para as
 ![Query_METEORA](https://github.com/Ricardinho146/ALURA_CHALLENGE_BI3_SEMANA_3-4/assets/64876358/459da90f-225f-4919-8e5a-a7e53ee991d4)
 
 
-### Análises, Resultados e Ações:
+### Análises:
 
-* **Pontualidade na entrega**:
-  * Durante o periodo analisado o Indice de Pontualidade de entrega foi de ~86% com o S2D Médio (Ship to Delivery) de 12 dias, porém para que haja uma melhora nesse indice a empresa tem que buscar uma forma de reduzir o S2D para uma média **<= 10 dias**, pois a média de dias de atraso são de 2 dias;
+* **Vendas e Resultados Semanais**
+ 
+* **Vendas e Resultados por Produto**
+    
+* **Ranking de Faturamento por Vendedor**
 
-* **Nivel de Estoque**:
-  * Os niveis de estoque estão sob controle e alinhados com o volume de vendas, porém pode ser uma opção o aumento do volume de estoque e **10%** para que a empresa não seja surpriendida em casos de aumentos de demanda;
-  
-* **Entregas por Estado**:
-  * Nota-se que a espresa está presente em quase todo os estados do Brasil, porém **44%** das entregas ocorrem em **São Paulo e Rio de Janeiro**.
+* **Faturamento por Estado do Brasil**
 
 ## Conclusão:
 
-Conclui-se que houve um bom aproveitamento dos dados disponibilizados, pois foi criado um Dashboard, que agrega valor ao negócio por meio  da análise dos dados para a tomada de decição.
+Conclui-se que houve um bom aproveitamento dos dados disponibilizados, porém não tive exito na conexção dos entre **MySQL** e **Looker Studio**.
 
