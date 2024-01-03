@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 #from dython.nominal import associations
 #from dython.nominal import identify_nominal_columns
-import category_encoders as ce
+#import category_encoders as ce
 from sklearn.preprocessing import LabelEncoder
 from imblearn.over_sampling import RandomOverSampler
 from sklearn.ensemble import RandomForestClassifier
