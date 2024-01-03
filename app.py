@@ -1,5 +1,5 @@
 # Importando as Bibliotecas:
-pip install -U scikit-learn
+#pip install -U scikit-learn
 
 import pandas as pd
 import numpy as np
