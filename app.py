@@ -2,7 +2,7 @@
 
 #pip install category-encoders
 #pip install -U Imbalanced-learn
-pip install dython
+!pip install dython
 
 
 # Importando as Bibliotecas:
