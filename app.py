@@ -1,4 +1,11 @@
+# Instalando as bibliotecas que não são nativas::
 
+! pip install category-encoders
+! pip install -U Imbalanced-learn
+! pip install dython
+
+
+# Importando as Bibliotecas:
 import pandas as pd
 import numpy as np
 from dython.nominal import associations
