@@ -1,15 +1,8 @@
-# Instalando as bibliotecas que não são nativas::
-
-#pip install category-encoders
-#pip install -U Imbalanced-learn
-!pip install dython
-
-
 # Importando as Bibliotecas:
 import pandas as pd
 import numpy as np
-from dython.nominal import associations
-from dython.nominal import identify_nominal_columns
+#from dython.nominal import associations
+#from dython.nominal import identify_nominal_columns
 import category_encoders as ce
 from sklearn.preprocessing import LabelEncoder
 from imblearn.over_sampling import RandomOverSampler
@@ -54,7 +47,8 @@ df['Churn']  = lb.fit_transform(df['Churn'])
 df_tst = df.drop("customerID", axis =1)
 
 # Gerando uma lista com as colunas de dados categóricos
-dados_categóricos =identify_nominal_columns(df_tst)
+#dados_categóricos =identify_nominal_columns(df_tst)
+dados_categóricos = df_tst.select_dtypes(include=['object', 'category']).columns.tolist()
 
 
 le = LabelEncoder()
