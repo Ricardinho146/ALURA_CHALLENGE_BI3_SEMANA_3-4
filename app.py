@@ -6,7 +6,7 @@ import numpy as np
 #from dython.nominal import associations
 #from dython.nominal import identify_nominal_columns
 #import category_encoders as ce
-from sklearn.preprocessing import LabelEncoder
+#from sklearn.preprocessing import LabelEncoder
 from imblearn.over_sampling import RandomOverSampler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
