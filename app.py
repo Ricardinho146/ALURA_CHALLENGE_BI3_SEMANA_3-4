@@ -1,7 +1,7 @@
 # Instalando as bibliotecas que não são nativas::
 
-pip install category-encoders
-pip install -U Imbalanced-learn
+#pip install category-encoders
+#pip install -U Imbalanced-learn
 pip install dython
 
 
